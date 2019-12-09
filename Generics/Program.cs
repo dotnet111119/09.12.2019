@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
@@ -27,6 +27,9 @@ namespace _0912
             //List<>
             Secret<int> s = new Secret<int>(1);
             Console.WriteLine(s);
+
+            Point<int> p1 = new Point<int>(3, 5);
+            Point<float> p2 = new Point<float>(5.3f, 7.12f);
         }
     }
 }
